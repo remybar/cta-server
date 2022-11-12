@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@imtbl/imx-sdk": "^1.35.3"
+  }
+}
