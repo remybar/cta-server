@@ -1,5 +1,22 @@
 {
   "dependencies": {
-    "@imtbl/imx-sdk": "^1.35.3"
+    "@imtbl/core-sdk": "^1.0.0",
+    "@imtbl/imx-sdk": "^1.35.3",
+    "better-sqlite3": "^7.6.2",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "md5": "^2.3.0",
+    "pg": "^8.8.0",
+    "pg-format": "^1.0.4"
+  },
+  "scripts": {
+    "start": "node cta-server.js",
+    "test": "mocha --recursive"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0"
   }
 }
